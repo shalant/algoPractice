@@ -1,0 +1,14 @@
+C:\Users\digdr\Documents\coding\AlgoPractice\AlgoPractice\bin\Debug\net8.0\AlgoPractice.exe
+C:\Users\digdr\Documents\coding\AlgoPractice\AlgoPractice\bin\Debug\net8.0\AlgoPractice.deps.json
+C:\Users\digdr\Documents\coding\AlgoPractice\AlgoPractice\bin\Debug\net8.0\AlgoPractice.runtimeconfig.json
+C:\Users\digdr\Documents\coding\AlgoPractice\AlgoPractice\bin\Debug\net8.0\AlgoPractice.dll
+C:\Users\digdr\Documents\coding\AlgoPractice\AlgoPractice\bin\Debug\net8.0\AlgoPractice.pdb
+C:\Users\digdr\Documents\coding\AlgoPractice\AlgoPractice\obj\Debug\net8.0\AlgoPractice.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\digdr\Documents\coding\AlgoPractice\AlgoPractice\obj\Debug\net8.0\AlgoPractice.AssemblyInfoInputs.cache
+C:\Users\digdr\Documents\coding\AlgoPractice\AlgoPractice\obj\Debug\net8.0\AlgoPractice.AssemblyInfo.cs
+C:\Users\digdr\Documents\coding\AlgoPractice\AlgoPractice\obj\Debug\net8.0\AlgoPractice.csproj.CoreCompileInputs.cache
+C:\Users\digdr\Documents\coding\AlgoPractice\AlgoPractice\obj\Debug\net8.0\AlgoPractice.dll
+C:\Users\digdr\Documents\coding\AlgoPractice\AlgoPractice\obj\Debug\net8.0\refint\AlgoPractice.dll
+C:\Users\digdr\Documents\coding\AlgoPractice\AlgoPractice\obj\Debug\net8.0\AlgoPractice.pdb
+C:\Users\digdr\Documents\coding\AlgoPractice\AlgoPractice\obj\Debug\net8.0\AlgoPractice.genruntimeconfig.cache
+C:\Users\digdr\Documents\coding\AlgoPractice\AlgoPractice\obj\Debug\net8.0\ref\AlgoPractice.dll

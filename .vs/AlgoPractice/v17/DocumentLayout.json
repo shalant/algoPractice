@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\digdr\\Documents\\coding\\algoPractice\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{73A7D268-2844-412B-904D-C5C0AD1165B4}|AlgoPractice\\AlgoPractice.csproj|c:\\users\\digdr\\documents\\coding\\algopractice\\algopractice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73A7D268-2844-412B-904D-C5C0AD1165B4}|AlgoPractice\\AlgoPractice.csproj|solutionrelative:algopractice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 263,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\digdr\\Documents\\coding\\algoPractice\\AlgoPractice\\Program.cs",
+              "RelativeDocumentMoniker": "AlgoPractice\\Program.cs",
+              "ToolTip": "C:\\Users\\digdr\\Documents\\coding\\algoPractice\\AlgoPractice\\Program.cs",
+              "RelativeToolTip": "AlgoPractice\\Program.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAwAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T22:42:54.435Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
