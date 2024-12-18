@@ -7,6 +7,7 @@ C:\Users\digdr\Documents\coding\AlgoPractice\AlgoPractice\obj\Debug\net8.0\AlgoP
 C:\Users\digdr\Documents\coding\AlgoPractice\AlgoPractice\obj\Debug\net8.0\AlgoPractice.AssemblyInfoInputs.cache
 C:\Users\digdr\Documents\coding\AlgoPractice\AlgoPractice\obj\Debug\net8.0\AlgoPractice.AssemblyInfo.cs
 C:\Users\digdr\Documents\coding\AlgoPractice\AlgoPractice\obj\Debug\net8.0\AlgoPractice.csproj.CoreCompileInputs.cache
+C:\Users\digdr\Documents\coding\AlgoPractice\AlgoPractice\obj\Debug\net8.0\AlgoPractice.sourcelink.json
 C:\Users\digdr\Documents\coding\AlgoPractice\AlgoPractice\obj\Debug\net8.0\AlgoPractice.dll
 C:\Users\digdr\Documents\coding\AlgoPractice\AlgoPractice\obj\Debug\net8.0\refint\AlgoPractice.dll
 C:\Users\digdr\Documents\coding\AlgoPractice\AlgoPractice\obj\Debug\net8.0\AlgoPractice.pdb

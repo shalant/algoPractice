@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\digdr\\Documents\\coding\\AlgoPractice\\AlgoPractice\\AlgoPractice.csproj": {}
+    "C:\\Users\\digdr\\Documents\\coding\\algoPractice\\AlgoPractice\\AlgoPractice.csproj": {}
   },
   "projects": {
-    "C:\\Users\\digdr\\Documents\\coding\\AlgoPractice\\AlgoPractice\\AlgoPractice.csproj": {
+    "C:\\Users\\digdr\\Documents\\coding\\algoPractice\\AlgoPractice\\AlgoPractice.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\digdr\\Documents\\coding\\AlgoPractice\\AlgoPractice\\AlgoPractice.csproj",
+        "projectUniqueName": "C:\\Users\\digdr\\Documents\\coding\\algoPractice\\AlgoPractice\\AlgoPractice.csproj",
         "projectName": "AlgoPractice",
-        "projectPath": "C:\\Users\\digdr\\Documents\\coding\\AlgoPractice\\AlgoPractice\\AlgoPractice.csproj",
+        "projectPath": "C:\\Users\\digdr\\Documents\\coding\\algoPractice\\AlgoPractice\\AlgoPractice.csproj",
         "packagesPath": "C:\\Users\\digdr\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\digdr\\Documents\\coding\\AlgoPractice\\AlgoPractice\\obj\\",
         "projectStyle": "PackageReference",
