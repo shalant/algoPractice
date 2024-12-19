@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = AlgoPractice
-build_property.ProjectDir = C:\Users\digdr\Documents\coding\algoPractice\AlgoPractice\
+build_property.ProjectDir = C:\Users\digdr\Documents\coding\AlgoPractice\AlgoPractice\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

@@ -8,9 +8,10 @@ namespace AlgoPractice
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(test(new[] { 1, 2, 3, 5 }));
-            //Console.WriteLine(test(7, 12, 13));
-            //Console.WriteLine(test(-1, 0, 1));
+            Console.WriteLine(test("FizzBuzz"));
+            Console.WriteLine(test("Fizz"));
+            Console.WriteLine(test("Buzz"));
+            Console.WriteLine(test("Founder"));
             //Console.WriteLine(test(17,33));
 
             //Console.WriteLine(stringTest("[[]]", "Hello"));
@@ -25,16 +26,17 @@ namespace AlgoPractice
 
         //public static int test(int x, int y)
         //public static bool test(int x, int y)
-        public static int test (int[] testArray)
+        public static string test (string x)
         {
-            int counter = 0;
-            for(int i=0; i < testArray.Length; i++)
-              {
-                counter++;
-  	            if(counter != testArray[i])
-    	            return counter;
-              };
-            return 0;
+            if (x.Substring(0,1) == "F")
+            {
+                return "Fizz";
+            }
+            else if (x.Substring(x.Length-1,1) == "B")
+            {
+                return "Fizz";
+            }
+            return false;
         }
             //return (y - x == z - y);
             //if (x <= 13 && y <= 13)
