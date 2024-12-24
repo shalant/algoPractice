@@ -13,10 +13,10 @@ namespace AlgoPractice
             //Console.WriteLine(test(-1,0,1));
             //Console.WriteLine(test(17,33));
 
-            Console.WriteLine(stringTest("Hello", 1));
-            Console.WriteLine(stringTest("Python", 2));
-            Console.WriteLine(stringTest("on", 1));
-            Console.WriteLine(stringTest("o", 1));
+            Console.WriteLine(stringTest("Hello"));
+            Console.WriteLine(stringTest("Python"));
+            Console.WriteLine(stringTest("a"));
+            Console.WriteLine(stringTest(""));
 
             Console.ReadLine();
         }
@@ -63,13 +63,19 @@ namespace AlgoPractice
         }
 
 
-        public static string stringTest(string s1, int n)
+        public static string stringTest(string s1)
         {
-            if(s1.Length > n)
+            if (s1.Length > 1)
             {
-                return s1.Substring(0, n) + s1.Substring(s1.Length - n) ;
+                return s1.Substring(0, 2);
             }
-            else return s1 + s1;
+            else if (s1.Length == 1)
+            {
+                return s1 + '#';
+            }
+            else return "##";
+        }
+        
            
                 //{
                 //    if(x.Substring(i,2) == sampleString)
@@ -82,6 +88,6 @@ namespace AlgoPractice
                 //    int counter = 0;  
                 //    for(int i = 0;i < x.Length - 1; i++)
               
-            }
+            
         }
     }
