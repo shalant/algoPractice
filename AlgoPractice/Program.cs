@@ -13,10 +13,11 @@ namespace AlgoPractice
             //Console.WriteLine(test(-1,0,1));
             //Console.WriteLine(test(17,33));
 
-            Console.WriteLine(stringTest("Hello"));
-            Console.WriteLine(stringTest("Python"));
-            Console.WriteLine(stringTest("a"));
-            Console.WriteLine(stringTest(""));
+            Console.WriteLine(stringTest("abc", "abcd"));
+            Console.WriteLine(stringTest("Python", "Python"));
+            Console.WriteLine(stringTest("JS", "Python"));
+            //Console.WriteLine(stringTest("xyz"));
+            //Console.WriteLine(stringTest("xyzsder"));
 
             Console.ReadLine();
         }
@@ -63,20 +64,40 @@ namespace AlgoPractice
         }
 
 
-        public static string stringTest(string s1)
+        public static bool stringTest(string s1, string s2)
         {
-            if (s1.Length > 1)
-            {
-                return s1.Substring(0, 2);
-            }
-            else if (s1.Length == 1)
-            {
-                return s1 + '#';
-            }
-            else return "##";
+            return s1.Substring(0,2) == s1.Substring(s1.Length-2,2);
+
+            //if(s1.Length < 3)
+            //{
+            //    return "";
+            //}
+            //if(s1.StartsWith("abc"))
+            //{
+            //    return "abc";
+            //}
+            //else if(s1.StartsWith("xyz"))
+            //{
+            //    return "xyz";
+            //}
+            
+            //else return "";
+
+            //string result = String.Empty;
+            //for (int i = 0; i < s1.Length; i++)
+            //{
+            //    if (s1[i] !=)
+            //    result += s1[i];
+            //}
+            //for (int j = 0; j < s2.Length; j++)
+            //{
+            //    result += s2[j];
+            //}
+            //return result;
+
         }
         
-           
+//return lastChars;
                 //{
                 //    if(x.Substring(i,2) == sampleString)
                 //{
