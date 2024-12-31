@@ -6,6 +6,8 @@ namespace AlgoPractice
 {
     internal class Program
     {
+        //Revisit #85
+
         static void Main(string[] args)
         {
             //Console.WriteLine(test(4, 5,6));
@@ -13,10 +15,10 @@ namespace AlgoPractice
             //Console.WriteLine(test(-1,0,1));
             //Console.WriteLine(test(17,33));
 
-            Console.WriteLine(stringTest("abc", "abcd"));
-            Console.WriteLine(stringTest("Python", "Python"));
-            Console.WriteLine(stringTest("JS", "Python"));
-            //Console.WriteLine(stringTest("xyz"));
+            Console.WriteLine(stringTest("abcab"));
+            Console.WriteLine(stringTest("python"));
+            Console.WriteLine(stringTest("aacda"));
+            Console.WriteLine(stringTest("jython"));
             //Console.WriteLine(stringTest("xyzsder"));
 
             Console.ReadLine();
@@ -64,9 +66,23 @@ namespace AlgoPractice
         }
 
 
-        public static bool stringTest(string s1, string s2)
+        public static string stringTest(string s1)
         {
-            return s1.Substring(0,2) == s1.Substring(s1.Length-2,2);
+            if (s1.Length > 1)
+            {
+                if (s1.Substring(1,1) == "a")
+                {
+                    s1 = s1.Remove(1,1);
+                }
+
+                if (s1.Substring(0, 1) == "a")
+                {
+                    s1 = s1.Remove(0, 1);
+                }
+            }
+
+            return s1;
+
 
             //if(s1.Length < 3)
             //{
