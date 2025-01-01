@@ -10,15 +10,15 @@ namespace AlgoPractice
 
         static void Main(string[] args)
         {
-            //Console.WriteLine(test(4, 5,6));
-            //Console.WriteLine(test(7, 12,13));
-            //Console.WriteLine(test(-1,0,1));
-            //Console.WriteLine(test(17,33));
+            Console.WriteLine(test(new[] { 10, 20, -30, -40 }));
+            //Console.WriteLine(test(new[] { 10, 20, -30, -40, 50 }));
+            //Console.WriteLine(test(new[] { 10, 20, 40, 50 }, new[] { 1, 20, 40, 5 }));
+            //Console.WriteLine(test(new[] { 12, 24, 35, 55 }));
 
-            Console.WriteLine(stringTest("abcab"));
-            Console.WriteLine(stringTest("python"));
-            Console.WriteLine(stringTest("aacda"));
-            Console.WriteLine(stringTest("jython"));
+            //Console.WriteLine(stringTest("abcab"));
+            //Console.WriteLine(stringTest("python"));
+            //Console.WriteLine(stringTest("aacda"));
+            //Console.WriteLine(stringTest("jython"));
             //Console.WriteLine(stringTest("xyzsder"));
 
             Console.ReadLine();
@@ -26,14 +26,12 @@ namespace AlgoPractice
 
         //public static int test(int x, int y)
         //public static bool test(int x, int y)
-        public static bool test (int x, int y, int z)
+        public static int test(int[] x)
         {
-            if (y-x == z-y)
-            {
-                return true;
-            }
-            else 
-                return false;
+            return new int[] { a1[1], a1[2], a1[3], a1[0] };
+
+            return new int[] { x[1], x[2], x[3], x[0] };
+            
             //int counter = 0;
             //if (x == 13 || x == 17) counter += x;
             //if(x >= 10 && x <= 20)
