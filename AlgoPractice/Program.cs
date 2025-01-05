@@ -11,32 +11,29 @@ namespace AlgoPractice
         static void Main(string[] args)
         {
             //Console.WriteLine(test(new int[5] ));
-            //Console.WriteLine(test(new[] { 12, 20 }));
-            //Console.WriteLine(test(new[] { 20,20 }));
-            //Console.WriteLine(test(new[] { 10, 20, -30, -40, 30 }));
-            //Console.WriteLine(test(new[] { 10,10 }));
-            //Console.WriteLine(test(new[] { 10 }));
+            Console.WriteLine(test(new[] { 1 }));
+            Console.WriteLine(test(new[] { 1, 2, 9 }));
+            Console.WriteLine(test(new[] { 1, 2, 9, 3, 3 }));
+            Console.WriteLine(test(new[] { 1, 2, 3, 4, 5, 6, 7 }));
+            Console.WriteLine(test(new[] { 1, 2, 2, 3, 7, 8, 9, 10, 6, 5, 4 }));
 
             //Console.WriteLine(stringTest("abcab"));
             //Console.WriteLine(stringTest("python"));
             //Console.WriteLine(stringTest("aacda"));
             //Console.WriteLine(stringTest("jython"));
             //Console.WriteLine(stringTest("xyzsder"));
-            int[] item = (new[] { 1,5,7 });
-            int[] item2 = test(item);
+            //int[] item1 = new[] { 1 };
+            //int[] item2 = new[] { 40, 50, 60 };
+            //int[] result = test(item1);
 
-            Console.WriteLine("Original array: ");
-            foreach (var i in item)
-            {
-                Console.Write(i.ToString() + " ");
-            }
-            Console.WriteLine("New array: ");
-            foreach (var i in item2)
-            {
-                Console.Write(i.ToString() + " ");
-            }
-            //Console.Write("New array: ");
-            //foreach (var i in item)
+            //Console.WriteLine("Original array 1: ");
+            //foreach (var i in item1)
+            //{
+            //    Console.Write(i.ToString() + " ");
+            //}
+
+            //Console.WriteLine("New array: ");
+            //foreach (var i in result)
             //{
             //    Console.Write(i.ToString() + " ");
             //}
@@ -45,20 +42,31 @@ namespace AlgoPractice
 
         //public static int test(int x, int y)
         //public static bool test(int x, int y)
-        public static int[] test(int[] x)
+        public static int test(int[] x)
         {
-            for (int i = 0; i < x.Length -1; i++)
+            int first = 0;
+            int middle = 0;
+            int last = 0;
+            int max = first;
+
+            if (x.Length > 0)
             {
-                if (x[i] == 5 && x[i+1] == 7)
+                first = x[0];
+                middle = x[x.Length / 2];
+                last = x[x.Length - 1];
+
+                if (middle > max)
                 {
-                    x[i + 1] = 1;
+                    max = middle;
+                }
+
+                if (last > max)
+                {
+                    max = last;
                 }
             }
-            return x;
-            
-            
-           
 
+            return max;
             //int[] result = new int[2];
 
             //if (x.Length >= 1)
