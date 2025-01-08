@@ -30,7 +30,7 @@ namespace AlgoPractice
             //Console.WriteLine(stringTest("xyzsder"));
             //List<int> item = new List<int> { 1, 2, 3, 4 };
             ////int[] item2 = new[] { 40, 50, 60 };
-            List<int> myList = test(new List<int> { 10, 22, 35, 41 });
+            List<int> myList = test(new List<int> { 10, 22, 35, 47, 53, 67 });
             //string[] item = new[] { "1", "2", "3", "4" };
             //List<int> result = test(item);
 
@@ -59,10 +59,10 @@ namespace AlgoPractice
         //public static bool test(int x, int y)
         //public static int[] test(int[] x)
         //public static string[] test(string[] x)
-        public static List<int> test(List<int> nums_str)
+        public static List<int> test(List<int> str)
         {
             // use LINQ to append '#' at the start and end of each string in nums_str
-            IEnumerable<int> s = nums_str.Select(x => x % 10);
+            //IEnumerable<string> s = str.Where(x => x != "a");
             //string[] result = new string[x.Length];
             //for (int i = 0; i < x.Length; i++)
             //{
@@ -70,8 +70,8 @@ namespace AlgoPractice
             //}
             //IEnumerable<int> result = x.Select(x => x * x *x);
 
-
-            return s.ToList();
+            return str.Where(x => x % 10 != 7).ToList();
+            //return s.ToList();
             //for (int j = x.Length / 2; j < x.Length; j++)
             //{
             //    //secondSum += x[j];
