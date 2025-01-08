@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AlgoPractice")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+87372044d4f7097183592282064627a56ea49695")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+13bd377f0233fdb3deed6ad5a167ba5e12b139af")]
 [assembly: System.Reflection.AssemblyProductAttribute("AlgoPractice")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AlgoPractice")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

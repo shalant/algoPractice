@@ -12,12 +12,12 @@ namespace AlgoPractice
         {
             //Console.WriteLine(test(new int[5] ));
             //Console.WriteLine("Does this array contain adjacent 3's or 5's? ");
-            Console.WriteLine("Problem #138: ");
+            Console.WriteLine("Problem #146: ");
 
-            //Console.WriteLine(test(new[] { 1, 2, 3, 4, 6, 8 }));
-            //Console.WriteLine(test(new[] { 15, 2, 3, 4, 15, 11 }));
-            //Console.WriteLine(test(new[] { 3, 3, 15, 15, 5, 5 }));
-            //Console.WriteLine(test(new[] { 1, 5, 15, 7, 8, 15 }));
+            //Console.WriteLine(test(123));
+            //Console.WriteLine(test(13));
+            //Console.WriteLine(test(222));
+            //Console.WriteLine(test(new[] { "1", "2", "3", "4" }));
 
             //Console.WriteLine(stringTest(new string[] { "a", "b", "bb", "c", "ccc" }, 3));
             //for (int i = 0; i < 3; i++) 
@@ -28,14 +28,16 @@ namespace AlgoPractice
             //Console.WriteLine(stringTest("aacda"));
             //Console.WriteLine(stringTest("jython"));
             //Console.WriteLine(stringTest("xyzsder"));
-            //int[] item = new[] { 1, 5, 7, 9, 10, 17 };
+            //List<int> item = new List<int> { 1, 2, 3, 4 };
             ////int[] item2 = new[] { 40, 50, 60 };
-            //int[] result = test(item1);
+            List<int> myList = test(new List<int> { 10, 22, 35, 41 });
+            //string[] item = new[] { "1", "2", "3", "4" };
+            //List<int> result = test(item);
 
-            //foreach (var i in item)
-            //{
-            //    Console.Write(i.ToString() + " ");
-            //}
+            foreach (var i in myList)
+            {
+                Console.Write(i.ToString() + " ");
+            }
             //Console.WriteLine("Sum sans 17: ");
             //Console.WriteLine(test(new[] { 3, 5, 1, 3, 7 }));
             //Console.WriteLine(test(new[] { 1, 2, 3, 4 }));
@@ -43,33 +45,42 @@ namespace AlgoPractice
             //Console.WriteLine(test(new[] { 2, 4, 5, 6 }));
             //Console.WriteLine(test(new[] { 1, 5, 9, 10, 17, 5 }));
             //int[] result = test(new[] { 1, 2, 5, 3, 5, 4, 6, 9, 11 });
-            string[] item = stringTest(new[] { "a", "aaa", "b", "bbb", "c", "ccc" }, 3);
+            //string[] item = stringTest(new[] { "a", "aaa", "b", "bbb", "c", "ccc" }, 3);
 
-            Console.WriteLine("New array: ");
-            foreach (var i in item)
-            {
-                Console.Write(i.ToString() + " ");
-            }
-            Console.ReadLine();
+            //Console.WriteLine("New array: ");
+            //foreach (var i in item)
+            //{
+            //    Console.Write(i.ToString() + " ");
+            //}
+            //Console.ReadLine();
         }
 
         //public static int test(int x, int y)
         //public static bool test(int x, int y)
-        public static int test(int[] x)
+        //public static int[] test(int[] x)
+        //public static string[] test(string[] x)
+        public static List<int> test(List<int> nums_str)
         {
-            for (int i = 0; i < x.Length / 2; i++)
-            {
-                //firstSum += x[i];
-            }
-            for (int j = x.Length / 2; j < x.Length; j++)
-            {
-                //secondSum += x[j];
-            }
-            var firstHalf = Average(x, 0, x.Length /2);
-            var secondHalf = Average(x, x.Length / 2, x.Length);
+            // use LINQ to append '#' at the start and end of each string in nums_str
+            IEnumerable<int> s = nums_str.Select(x => x % 10);
+            //string[] result = new string[x.Length];
+            //for (int i = 0; i < x.Length; i++)
+            //{
+            //    result[i] = "#" + x[i] + "#";
+            //}
+            //IEnumerable<int> result = x.Select(x => x * x *x);
+
+
+            return s.ToList();
+            //for (int j = x.Length / 2; j < x.Length; j++)
+            //{
+            //    //secondSum += x[j];
+            //}
+            //var firstHalf = Average(x, 0, x.Length /2);
+            //var secondHalf = Average(x, x.Length / 2, x.Length);
 
             
-            return 2;
+            //return 2;
         }
 
         private static int Average(int[] num, int start, int end)
